@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- SWMS. -->
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="ui">
+      <div id="score">Score : 0</div>
+      <button id="leaderboard">Leaderboard</button>
+    </div>
+    <div id="endUI">
+      <form id="playerInfoForm">
+        <input type="text" class="textInput" id="number" placeholder="학번" />
+        <input type="text" class="textInput" id="name" placeholder="이름" />
+        <input type="submit" class="btn" value="SAVE" />
+      </form>
+    </div>
+    <div id="lb_Screen">
+      <div>
+        <div id="lbTitle">Leaderboard</div>
+        <div id="lbContent"></div>
+        <button class="btn" id="lbBack">Back</button>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/system.js"></script>
+  </body>
+</html>
